@@ -1,0 +1,49 @@
+
+<!doctype html>
+<html lang='en'>
+<head>
+<title>jpopup Demo</title>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+<link href='css/jPopup.min.css' rel='stylesheet' type='text/css'>
+</head>
+
+
+<body>
+
+<h1>jpopup Demo</h1>
+
+
+<button class="openPopup" type="button">Lanuch The Popup</button>
+
+
+<script src="js/jPopup.min.js"></script>
+<script>
+
+    /*** DEMO js ***/
+
+    document.querySelector('.openPopup').addEventListener('click', function() {
+
+      var demoContent = '<div>\
+          <strong>Hurray</strong>\
+          <p>You can put any content you want here.</p>\
+          <p>Closeable by pressing <em>ESC</em> key.</p>\
+          <p>Also closeable by navigating backwards in browser (<a href="https://developer.mozilla.org/en-US/docs/Web/API/History_API">History API</a>).</p>\
+          <p>Style it as you wish :)</p>\
+          <p>See more options at <a href="https://github.com/robiveli/jpopup">GitHub</a></p>\
+      </div>';
+
+      var jPopupDemo = new jPopup({
+
+          content: demoContent,
+          hashtagValue: '#demopopup'
+
+      });
+
+    });
+
+</script>
+
+</body>
+<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'}),_trfd.push({'ap':'cpsh'},{'server':'p3plcpnl0805'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/tcc/tcc_l.combined.1.0.6.min.js'></script></html>
